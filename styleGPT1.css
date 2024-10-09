@@ -1,0 +1,54 @@
+span {
+    padding: 30px 300px;
+    height: 500;
+    width: 800;
+    background-color: #333;
+    
+}
+
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center; /* Центрирует текст */
+}
+
+/* Центровка контента внутри секции */
+section {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Заголовок */
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Параграф */
+p {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #666;
+}
+
+/* Кнопка */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #666;
+    color: white;
+    border: none;
+    border-radius: 0;
+}
+
+button.hover {
+    
+    background-color: white;
+}
